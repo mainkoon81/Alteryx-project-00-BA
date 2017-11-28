@@ -18,8 +18,9 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 >**Cleaning with dirty dataset** (str parsing and replacements, deduping, imputation)
  - issue1: inconsistent delimitors((,-,/), extra characters("str",123str, $123)
  - issue2: duplicate data
- - issue3: missing data, remove? or impute? or "multiple imputation + maximum likelihood" ?
- - issue4: outliers
+ - issue3: missing data, remove? or impute? or "multiple imputation + maximum likelihood"-> with R/SAS ?
+ - isuue3_1: the fields that have missing datas are "significant predictors"-> with R/SAS ? 
+ - issue4: outliers 
 
 
 >**Manipulating rows and columns of data** (transposing, aggregation, cross tabulation)

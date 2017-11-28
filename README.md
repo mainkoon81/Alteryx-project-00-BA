@@ -4,7 +4,7 @@
 ##  Data Preparation? cleaning + blending
 __Issue:__ Data Source and Type, cleaning, Formatting, Blending 
 
-#### A.Understanding different data types (between strings, integers, doubles, and bytes)
+#### A. Understanding different data types (between strings, integers, doubles, and bytes)
  - Data Sources: transactional(supermarket, etc), devices(TV,phone, etc), collected(weather, census, flight, etc) How to make them available to use? 
  - File Sources: software, database, web
  - From database: https://help.alteryx.com/current/DatabaseConnections.htm
@@ -15,7 +15,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 
  - Data Types(for calculation or blending): str / number / boolean / datetime / others
 
-#### Cleaning with dirty dataset (str parsing and replacements, deduping, imputation)
+#### B. Cleaning with dirty dataset (str parsing and replacements, deduping, imputation)
  - issue1: inconsistent delimitors((,-,/), extra characters("str",123str, $123)
  - issue2: duplicate data
  - issue3: missing data, remove? or impute? or "multiple imputation + maximum likelihood"-> with R/SAS ?
@@ -23,6 +23,6 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - issue4: outliers 
 
 
-#### Manipulating rows and columns of data (transposing, aggregation, cross tabulation)
+#### C. Manipulating rows and columns of data (transposing, aggregation, cross tabulation)
 
-#### Blending data through joins and unions (fuzzy matching, spatial blending to help with spatial analysis)
+#### D. Blending data through joins and unions (fuzzy matching, spatial blending to help with spatial analysis)

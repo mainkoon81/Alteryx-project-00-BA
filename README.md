@@ -18,7 +18,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 >**Cleaning with dirty dataset** (str parsing and replacements, deduping, imputation)
  - issue1: inconsistent delimitors((,-,/), extra characters("str",123str, $123)
  - issue2: duplicate data
- - issue3: missing data, remove? or impute?
+ - issue3: missing data, remove? or impute? or "multiple imputation + maximum likelihood" ?
  - issue4: outliers
 
 

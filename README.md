@@ -15,8 +15,11 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 
  - Data Types(for calculation or blending): str / number / boolean / datetime / others
 
->**Dealing with dirty and missing data as well as outliers** (deduping, string parsing and replacements, and imputation)
- - 
+>**Cleaning with dirty dataset** (str parsing and replacements, deduping, imputation)
+ - issue1: inconsistent delimitors((,-,/), extra characters("str",123str, $123)
+ - issue2: duplicate data
+ - issue3: missing data, remove? or impute?
+ - issue4: outliers
 
 
 >**Manipulating rows and columns of data** (transposing, aggregation, cross tabulation)

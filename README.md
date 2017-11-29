@@ -36,7 +36,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 
 
 -----------------------------------------------------------------------------------------------
-##  Project 00. Preparing school data
+##  Project 00. preparing school data
 __Issue:__ A school district wants to predict the per pupil costs of a school based on some high level summary data about the school. This way they’ll have a good estimation of how well a school is managing its costs relative to what the model would predict. Let's prepare the data for modelling.
 
 __Data Understanding:__ The CSV files contain data for two different school districts.

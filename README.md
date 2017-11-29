@@ -30,5 +30,5 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 #### D. Blending data
  - union: appending multi-data streams(sharing the same contents) into one unified stream 
  - join: left(scraps) + inner + right(sediments)
- - fuzzy matching: detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity)
+ - fuzzy matching: detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) )
  - spatial blending: 

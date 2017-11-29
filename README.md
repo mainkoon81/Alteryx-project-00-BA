@@ -30,5 +30,35 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 #### D. Blending data
  - __union:__ appending multi-data streams(sharing the same contents) into one unified stream 
  - __join:__ left(scraps) + inner + right(sediments)
- - __fuzzy matching:__ detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) )
- - __spatial matching, blending:__  
+ - __fuzzy matching:__ detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) ). 
+ - __spatial matching & blending:__  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -22,9 +22,9 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - isuue3_1: the fields that have missing datas are "significant predictors"-> with R/SAS ? 
  - issue4: outliers can be suspected via box-plots by eyeballing. or z-score ?
 
-#### C. Formatting - Manipulating rows, columns (massaging data)
- - transposing: 
- - aggregation:
- - cross tabulation:
+#### C. Formatting - manipulating rows, columns (massaging data)
+ - transposing: to combine several columns into one single field (generating two columns: name, value)
+ - aggregation: to summarise or pull out new info from manipulating rows, columns
+ - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix 
 
 #### D. Blending data through joins and unions (fuzzy matching, spatial blending to help with spatial analysis)

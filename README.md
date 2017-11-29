@@ -23,12 +23,12 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - issue4: outliers can be suspected via box-plots by eyeballing. or z-score ?
 
 #### C. Formatting - manipulating rows, columns (massaging data)
- - transposing: to combine several columns into one single field (generating two columns: name, value)
- - aggregation: to summarise or pull out new info from manipulating rows, columns
- - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix (groupby, groupby, count)
+ - __transposing:__ to combine several columns into one single field (generating two columns: name, value)
+ - __aggregation:__ to summarise or pull out new info from manipulating rows, columns
+ - __cross tabulation:__ same as aggregation, but taking a two categorical fields from the original than create their own matrix (groupby, groupby, count)
 
 #### D. Blending data
- - union: appending multi-data streams(sharing the same contents) into one unified stream 
- - join: left(scraps) + inner + right(sediments)
- - fuzzy matching: detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) )
- - spatial blending: 
+ - __union:__ appending multi-data streams(sharing the same contents) into one unified stream 
+ - __join:__ left(scraps) + inner + right(sediments)
+ - __fuzzy matching:__ detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) )
+ - __spatial matching, blending:__  

@@ -28,7 +28,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix (groupby, groupby, count)
 
 #### D. Blending data
- - union: 
- - join: 
- - fuzzy matching: 
+ - union: appending multi-data streams(sharing the same contents) into one unified stream 
+ - join: left(scraps) + inner + right(sediments)
+ - fuzzy matching: detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity)
  - spatial blending: 

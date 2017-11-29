@@ -27,4 +27,8 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - aggregation: to summarise or pull out new info from manipulating rows, columns
  - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix (groupby, groupby, count)
 
-#### D. Blending data through joins and unions (fuzzy matching, spatial blending to help with spatial analysis)
+#### D. Blending data
+ - union: 
+ - join: 
+ - fuzzy matching: 
+ - spatial blending: 

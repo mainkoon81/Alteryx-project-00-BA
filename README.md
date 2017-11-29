@@ -25,6 +25,6 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 #### C. Formatting - manipulating rows, columns (massaging data)
  - transposing: to combine several columns into one single field (generating two columns: name, value)
  - aggregation: to summarise or pull out new info from manipulating rows, columns
- - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix 
+ - cross tabulation: same as aggregation, but taking a two categorical fields from the original than create their own matrix (groupby, groupby, count)
 
 #### D. Blending data through joins and unions (fuzzy matching, spatial blending to help with spatial analysis)

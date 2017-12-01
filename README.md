@@ -11,7 +11,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
  - From web (API):  https://community.alteryx.com/t5/Engine-Works-Blog/REST-API-In-5-Minutes-No-Coding/ba-p/8137
  - Then Parsing: https://www.alteryx.com/on-demand-training
 
-<img src="https://user-images.githubusercontent.com/31917400/33272708-df02ba9c-d382-11e7-914e-7cd34298c857.jpg" width="600" height="300" />
+<img src="https://user-images.githubusercontent.com/31917400/33505159-34580850-d6e2-11e7-8385-9d882a5de3a8.jpg" width="600" height="150" />
 
  - Data Types(for calculation or blending): str / number / boolean / datetime / others
 

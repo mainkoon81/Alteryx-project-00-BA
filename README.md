@@ -17,9 +17,9 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 
 #### B. Cleaning with dirty dataset (str parsing and replacements, deduping, imputation)
  - issue1: inconsistent delimitors((,-,/), extra characters("str",123str, $123)
- - issue2: duplicate data
+ - issue2: **duplicate data**
  - issue3: missing data, remove? or impute? or "multiple imputation + maximum likelihood"-> with R/SAS ?
- - isuue3_1: the fields that have missing datas are "significant predictors"-> with R/SAS ? 
+ - isuue3-1: the fields that have missing datas are "significant predictors"-> with R/SAS ? 
  - issue4: outliers can be suspected via box-plots by eyeballing. or z-score ?
 
 #### C. Formatting - manipulating rows, columns (massaging data)
@@ -30,7 +30,7 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 #### D. Blending data
  - __union:__ appending multi-data streams(sharing the same contents) into one unified stream 
  - __join:__ left(scraps) + inner + right(sediments)
- - __fuzzy matching:__ detecting "non-identical duplicates" by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) ). 
+ - __fuzzy matching:__ detecting **"non-identical duplicates"** by specifying parameters to match on(using algorithms to score similarity - Jaro:characters in common / Levenshtein:the number of edits (insertions, deletions, or substitutions) ). 
  - __spatial matching & blending:__  
 
 
@@ -40,19 +40,25 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 __Issue:__ A school district wants to predict **the per pupil costs of a school** based on some high level summary data about the school. This way they’ll have a good estimation of how well a school is managing its costs relative to what the model would predict. We are asked to prepare the data for modelling.
 
 __Data Understanding:__ The CSV files contain data for two different school districts.
- - DistrictA_Attendance - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 25 schools in district A.
- - DistrictA_Finance - It contains average monthly teacher salary and per pupil cost data for the 25 schools in district A.
- - DistrictB_Attendance - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 21 schools in district B.
- - DistrictB_Finance - It contains average monthly teacher salary and per pupil cost data for the 21 schools in district B.
+ - 'DistrictA_Attendance.csv' - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 25 schools in district A.
+ - 'DistrictA_Finance.csv' - It contains average monthly teacher salary and per pupil cost data for the 25 schools in district A.
+ - 'DistrictB_Attendance.csv' - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 21 schools in district B.
+ - 'DistrictB_Finance.csv' - It contains average monthly teacher salary and per pupil cost data for the 21 schools in district B.
 
 __Process:__ 
-> Step 1: **Combine the data:** First combine the data from the various files into one sheet, with one row per school. 
-  - issue: Unmatched row-numbers, two catagorical fields, Need to transform the structure of either one of the datasets (we use a crosstab)
 
+Step 1: **Combine the data:** First combine the data from the various files into one sheet, with one row per school. 
+ - Crosstab_tool: Unmatched row-numbers, two catagorical fields, Need to transform the structure of either one of the datasets
+ - Join_tool: Check the leftover in L/R tabs
+ - Union_tool: Stack the data on top of eachother, and remove or rename its fields, using Select_tool
+ 
+Step 2: **Clean the Data:** Next clean the data, which includes addressing duplicate data, missing data, and any other data issues.
+ - FieldSummary_tool: Visualize the data first and show missing values in its histograms. Do we delete or impute the missings? 
+ - SelectRecords_tool: Delete duplicate rows manually..hopeless
+ - Filter_tool: Delete missings'rows by filtering out records that are NULL. ..hopeless
 
-> Step 2: **Clean the Data:** Next clean the data, which includes addressing duplicate data, missing data, and any other data issues.
-
-> Step 3: **Identify and Deal with Outliers:** Lastly, look for outliers and determine the best way to address them. 
+Step 3: **Identify and Deal with Outliers:** Lastly, look for outliers and determine the best way to address them. 
+ - 
 
 
 

@@ -59,35 +59,13 @@ Step 2: **Clean the Data:** Next clean the data, which includes addressing dupli
 
 Step 3: **Identify and Deal with Outliers:** Lastly, look for outliers and determine the best way to address them. 
  - Scatterplot_tool: Since there are four predictor variables, we drag in four scatterplot_tools. Then we configure each one with a different predictor variable. The box plots use the interquartile range to determine whether a point is an outlier. 
- - Sort_tool: Check the point that 
- 
 <img src="https://user-images.githubusercontent.com/31917400/33516276-0f2f2d0c-d768-11e7-8032-44295327200b.jpg" />
- 
 
-
-
+ - Sort_tool: Find the obv suspected as outliers..
+ - General way to deal with outliers
+   - Delete: When data is erroneous or when the outlier hurts the model's’ ability to make prediction (perhaps the value is very unlikely to appear again so keeping it in the model will skew all other predictions).
+   - Impute: Also for when data is erroneous, we could use the average or median value in its place.
 
 <img src="https://user-images.githubusercontent.com/31917400/33515497-6ef19394-d75c-11e7-8bcb-ae1210e131cf.png" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

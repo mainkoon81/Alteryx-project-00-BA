@@ -58,7 +58,11 @@ Step 2: **Clean the Data:** Next clean the data, which includes addressing dupli
  - Filter_tool: Delete missings'rows by filtering out records that are NULL. ..hopeless
 
 Step 3: **Identify and Deal with Outliers:** Lastly, look for outliers and determine the best way to address them. 
- - 
+ - Scatterplot_tool: Since there are four predictor variables, we drag in four scatterplot_tools. Then we configure each one with a different predictor variable. The box plots use the interquartile range to determine whether a point is an outlier. 
+ - Sort_tool: Check the point that 
+ 
+<img src="https://user-images.githubusercontent.com/31917400/33516276-0f2f2d0c-d768-11e7-8032-44295327200b.jpg" />
+ 
 
 
 

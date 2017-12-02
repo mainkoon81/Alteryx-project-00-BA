@@ -39,13 +39,14 @@ __Issue:__ Data Source and Type, cleaning, Formatting, Blending
 ##  Project 00. preparing school data
 __Issue:__ A school district wants to predict **the per pupil costs of a school** based on some high level summary data about the school. This way they’ll have a good estimation of how well a school is managing its costs relative to what the model would predict. We are asked to prepare the data for modelling.
 
-__Data Understanding:__ The CSV files contain data for two different school districts.
+### __Data Understanding:__ 
+The CSV files contain data for two different school districts.
  - 'DistrictA_Attendance.csv' - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 25 schools in district A.
  - 'DistrictA_Finance.csv' - It contains average monthly teacher salary and per pupil cost data for the 25 schools in district A.
  - 'DistrictB_Attendance.csv' - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 21 schools in district B.
  - 'DistrictB_Finance.csv' - It contains average monthly teacher salary and per pupil cost data for the 21 schools in district B.
 
-__Process:__ 
+### __Process:__ 
 
 Step 1: **Combine the data:** First combine the data from the various files into one sheet, with one row per school. 
  - Crosstab_tool: Unmatched row-numbers, two catagorical fields, Need to transform the structure of either one of the datasets

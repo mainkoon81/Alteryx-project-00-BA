@@ -48,17 +48,17 @@ The CSV files contain data for two different school districts.
 
 ### __Process:__ 
 
-Step 1: **Combine the data:** First combine the data from the various files into one sheet, with one row per school. 
+Step 1: **Combine the data:** combine the data from the various files into one sheet, with one row per school. 
  - Crosstab_tool: Unmatched row-numbers, two catagorical fields, Need to transform the structure of either one of the datasets
  - Join_tool: Check the leftover in L/R tabs
  - Union_tool: Stack the data on top of eachother, and remove or rename its fields, using Select_tool
  
-Step 2: **Clean the Data:** Next clean the data, which includes addressing duplicate data, missing data, and any other data issues.
+Step 2: **Clean the Data:** clean the data, which includes addressing duplicate data, missing data, and any other data issues.
  - FieldSummary_tool: Visualize the data first and show missing values in its histograms. Do we delete or impute the missings? 
  - SelectRecords_tool: Delete duplicate rows manually..hopeless
  - Filter_tool: Delete missings'rows by filtering out records that are NULL. ..hopeless
 
-Step 3: **Identify and Deal with Outliers:** Lastly, look for outliers and determine the best way to address them. 
+Step 3: **Identify and Deal with Outliers:** look for outliers and determine the best way to address them. 
  - Scatterplot_tool: Since there are four predictor variables, we drag in four scatterplot_tools. Then we configure each one with a different predictor variable. The box plots use the interquartile range to determine whether a point is an outlier. 
 <img src="https://user-images.githubusercontent.com/31917400/33516276-0f2f2d0c-d768-11e7-8032-44295327200b.jpg" />
 

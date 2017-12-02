@@ -46,7 +46,7 @@ The CSV files contain data for two different school districts.
  - 'DistrictB_Attendance.csv' - It contains average daily attendance, percent attendance, and pupil-teacher ratio data for the 21 schools in district B.
  - 'DistrictB_Finance.csv' - It contains average monthly teacher salary and per pupil cost data for the 21 schools in district B.
 
-### __Process:__ 
+### __Process in Alteryx:__ 
 
 Step 1: **Combine the data:** combine the data from the various files into one sheet, with one row per school. 
  - Crosstab_tool: Unmatched row-numbers, two catagorical fields, Need to transform the structure of either one of the datasets
